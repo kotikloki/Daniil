@@ -1,0 +1,154 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; 
+  } 
+  
+  header { 
+    background-image: linear-gradient(135deg, #8C75E3, #A392E3); 
+    height: 75px; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    padding: 0 20px; 
+    box-shadow: 0 4px 12px rgba(140, 117, 227, 0.15); 
+  } 
+  
+  header a { 
+    text-align: center; 
+    border: 2px solid rgba(255, 255, 255, 0.4); 
+    background-color: rgba(255, 255, 255, 0.15); 
+    border-radius: 8px; 
+    text-decoration: none; 
+    color: white; 
+    padding: 8px 16px; 
+    margin: 0 8px; 
+    font-weight: 500; 
+    transition: all 0.25s ease; 
+  } 
+  
+  header a:hover { 
+    color: #2D1782; 
+    background-color: white; 
+    border-color: white; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  } 
+  
+  header a:focus { 
+    color: #2D1782; 
+    background-color: #D6CFFF; 
+    border-color: #8C75E3; 
+  }
+  
+  h1 { 
+    font-size: 36px; 
+    text-align: center; 
+    color: #2D1782; 
+    margin-bottom: 40px; 
+  } 
+  
+  body { 
+    background-color: #f8f9fa; 
+    color: #333333; 
+  } 
+  
+  footer { 
+    background-color: #2D1782; 
+    color: white; 
+    padding: 40px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    gap: 30px; 
+    width: 100%; 
+  } 
+  
+  .footer-review { 
+    max-width: 450px; 
+  } 
+  
+  footer h4 { 
+    font-size: 20px; 
+    color: #D6CFFF; 
+    margin-bottom: 12px; 
+  } 
+  
+  footer p { 
+    color: #E2DBFF; 
+    font-size: 15px; 
+    line-height: 1.6; 
+  } 
+  
+  .footer-contacts { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-end; 
+    gap: 15px; 
+  } 
+  
+  .contact-links a { 
+    display: block; 
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+    margin-bottom: 5px; 
+    transition: color 0.2s; 
+  } 
+  
+  .contact-links a:hover { 
+    color: #D6CFFF; 
+  } 
+  
+  footer a { 
+    color: #8C75E3; 
+    text-decoration: none; 
+    font-weight: bold; 
+  } 
+  
+  footer a:hover { 
+    color: #6047bb;
+  } 
+  
+  main p { 
+    font-size: 16px; 
+    line-height: 1.7; 
+    color: #4a4a4a; 
+    margin-bottom: 20px; 
+  } 
+  
+  main { 
+    max-width: 1100px; 
+    margin: 0 auto; 
+    padding: 50px 20px; 
+  }
+  
+  h3 { 
+    font-size: 24px; 
+    color: #2D1782; 
+    margin-top: 45px; 
+    margin-bottom: 15px; 
+  } 
+
+  .logo_python {
+    width: 75px;
+}
+
+.my-link { 
+  color: #8C75E3; 
+  text-decoration: none; 
+  font-weight: bold; 
+} 
+
+.my-link:hover { 
+  text-decoration: underline; 
+} 
+
+.contact-links {
+  color: #E2DBFF; 
+  font-size: 15px; 
+  line-height: 1.6; 
+  margin-left: 800px;
+  margin-bottom: 30px;
+}

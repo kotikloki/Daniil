@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PythOn Code school</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header>
+            <img class="logo_python" src="image/python_image_logo_html.png" alt="Логотип школы PythOn">
+            <a href="C:\Users\user\Desktop\Банин Даниил сайт\3index.html">Оплата</a>
+            <a href="C:\Users\user\Desktop\Банин Даниил сайт\4index.html">Скачать редактор</a>
+            <a href="C:\Users\user\Desktop\Банин Даниил сайт\2index.html">Аккаунт</a>
+            <a href="C:\Users\user\Desktop\Банин Даниил сайт\5index.html">Первый гайд</a>
+        </header>
+        <main>
+            <h1>Школа программирования PythOn</h1>
+            <p class = "pa">Приветствуем вас на нашем сайте!</p>
+            <p>Данный сайт посвещён программированию на языке Python!!</p>
+            <h2>Почему Python хороший выбор?</h2>
+            <p class="z"><span>Pyt</span><span class = "x">hon</span> считается одним из лучших языков программирования благодаря сочетанию простоты, универсальности и огромной экосистемы готовых решений. Код на Python читается почти как обычный текст на английском языке.</p>
+            <h2>Чем мы вас научим!</h2>
+            <p>Анализ данных, машинное обучение, веб-разработка, написание ботов, парсинг сайтов, автоматизация таблиц Excel, создание нейросетей, разработка игр, визуализация графиков, этичный хакинг, обработка изображений, распознавание лиц, работа с API, написание скриптов, глубокое обучение, создание десктопных приложений, парсинг PDF, управление базами данных, разработка микросервисов, тестирование программ, автоматизация браузера, создание мессенджеров, работа с Big Data, финансовая аналитика, торговые роботы для биржи, распознавание речи, синтез голоса, классификация текстов, генерация стихов, создание блокчейна, майнинг данных, веб-дизайн на Django, бэкенд на Flask, асинхронное программирование, работа с JSON и т.д.</p>
+            <h2>С чего начнём в python!</h2>
+            <p>Переменные и типы данных, арифметические операции, ввод данных через input(), вывод через print(), условные операторы if/else, циклы for, циклы while, создание функций def, работа со списками list, словари dict, кортежи и множества, работа со строками и их методами, форматирование строк (f-строки), чтение текстовых файлов, запись в файлы, обработка исключений try/except, импорт стандартных библиотек (math, random, datetime), генераторы списков (list comprehensions), написание калькулятора, игра «Угадай число», создание списка дел (To-Do list), генератор случайных паролей, конвертер валют (с фиксированным курсом), поиск и замена слов в тексте, подсчет количества слов в файле, базовые регулярные выражения, работа с датами и временем, сортировка данных, использование модулей (создание своих .py файлов), комментарии и документация кода.</p>
+            <h2>Сколько стоит обучение?</h2>
+
+<div class="tariffs-container">
+    <div class="tariff-card">
+        <h3>Базовый курс</h3>
+        <p>Доступ к лекциям навсегда, поддержка в чате.</p>
+        <div class="price">1 000 руб.</div>
+        <a href="C:\Users\user\Desktop\Банин Даниил сайт\3index.html" class="btn">Выбрать</a>
+    </div>
+
+    <div class="tariff-card" style="border: 2px solid #8C75E3;">
+        <h3>Индивидуально</h3>
+        <p>Созвоны с ментором, проверка ДЗ, помощь с проектом.</p>
+        <div class="price">4 320 руб.</div>
+        <a href="C:\Users\user\Desktop\Банин Даниил сайт\3index.html" class="btn" style="background-color: #2D1782;">Популярно</a>
+    </div>
+</div>
+
+            <table>
+                <tr>
+                    <td>Сколько стоит (1 неделя)</td>
+                    <td>Вид</td>
+                    <td>Сколько стоит (1 месяц)</td>
+                </tr>
+                <tr>
+                    <td>1045руб.</td>
+                    <td>С группой</td>
+                    <td>4478руб.</td>
+                </tr>
+                <tr>
+                    <td>1300руб.</td>
+                    <td>Индивидуально</td>
+                    <td>5571руб.</td>
+                </tr>
+            </table>
+            <p><a class= "my-link" href = "C:\Users\user\Desktop\Банин Даниил сайт\3index.html">Оплачиваем </a> на нашем сайте!</p>
+            <div class="code-container">
+    <h2>Как выглядит код нашего ученика (профессионала)</h2>
+    <pre><code class="b">
+import asyncio
+import logging
+from dataclasses import dataclass
+
+# Ваш код теперь будет отображаться 
+# именно так, с учетом всех переносов
+def fetch_rate():
+    pass
+
+import logging
+from dataclasses import dataclass
+from typing import Optional, Dict
+
+import httpx 
+
+# 1. Настройка логирования — мастхэв для отладки в продакшене
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+# 2. Использование Data Classes для чистого хранения данных
+@dataclass(frozen=True)
+class ExchangeRate:
+    base: str
+    target: str
+    rate: float
+
+class CurrencyService:
+    """Профессиональный сервис для работы с API валют."""
+    
+    def __init__(self, api_url: str):
+        self.api_url = api_url
+        # Таймауты предотвращают зависание сервиса
+        self._timeout = httpx.Timeout(10.0, connect=5.0)
+
+    async def fetch_rate(self, base: str, target: str) -> Optional[ExchangeRate]:
+        """
+        Получает курс валют асинхронно.
+        Использует контекстный менеджер для управления соединениями.
+        """
+        params = {"base": base, "symbols": target}
+        
+        try:
+            async with httpx.AsyncClient(timeout=self._timeout) as client:
+                response = await client.get(self.api_url, params=params)
+                
+                # Проверка HTTP-статусов (4xx, 5xx)
+                response.raise_for_status()
+                
+                data = response.json()
+                rate_value = data.get("rates", {}).get(target)
+                
+                if rate_value is None:
+                    logger.warning(f"Курс {target} не найден для базы {base}")
+                    return None
+                
+                return ExchangeRate(base=base, target=target, rate=float(rate_value))
+                
+        except httpx.HTTPStatusError as e:
+            logger.error(f"Ошибка API ({e.response.status_code}): {e}")
+        except Exception as e:
+            # Перехват неожиданных ошибок (сеть, JSON и т.д.)
+            logger.exception("Критическая ошибка при запросе данных")
+        
+        return None
+
+async def main():
+    # Пример использования
+    service = CurrencyService("https://exchangerate.host")
+    
+    logger.info("Запуск получения данных...")
+    result = await service.fetch_rate("USD", "EUR")
+    
+    if result:
+        print(f"Актуальный курс: 1 {result.base} = {result.rate:.2f} {result.target}")
+    else:
+        print("Не удалось получить данные.")
+
+if __name__ == "__main__":
+    # Правильный запуск асинхронного цикла
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        pass
+    </code></pre></div>
+            <h2>Сложно будет?</h2>
+            <p>Python является не трудном языком, но если вы не знаете как нормально работать с компьютером у нас есть решение!</p>
+            <h2>Курс работы с компьютером!</h2>
+            <table>
+                <tr>
+                    <td>Сколько стоит (1 неделя)</td>
+                    <td>Вид</td>
+                    <td>Сколько стоит (1 месяц)</td>
+                </tr>
+                <tr>
+                    <td>900руб.</td>
+                    <td>С группой</td>
+                    <td>3780руб.</td>
+                </tr>
+                <tr>
+                    <td>1000руб.</td>
+                    <td>Индивидуально</td>
+                    <td>4320руб.</td>
+                </tr>
+            </table>
+            <p><a class= "my-link" href = "C:\Users\user\Desktop\Банин Даниил сайт\3index.html">Оплачиваем </a> на нашем сайте!</p>
+            <h1>Конец!</h1>
+        </main>
+    <footer>
+        <div class="footer-container">
+            <div class="contact-links">
+                <p>© 2026 PythOn Code school.<br> Все права защищены!</p>
+                <a href="tel:+79028303283">+79028303283</a>
+                <a href="https://t.me">@school_python</a>
+            </div>
+        </div>
+    </footer>
+
+    </body>
+</html>

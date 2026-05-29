@@ -1,0 +1,44 @@
+header a {
+    color: rgb(33, 0, 34);
+    background-color: pink;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 150px;
+}
+header {
+    background-color: lightyellow;
+    padding: 10px;
+}
+
+header img {
+    border-radius: 80px;
+}
+
+h2 {
+    background-color: #feffb1;
+    color: rgb(250, 177, 255);
+    font-size: 30px;
+    padding: 10px;
+}
+
+p{
+    font-size: 30px;
+}
+
+footer {
+    background-color: #605664; /* Темно-серый фон */
+    color: white;              /* Белый цвет текста */
+    padding: 20px;              /* Отступы внутри */
+    text-align: center;         /* Выравнивание текста по центру */
+    margin-top: 150px;}
+
+footer p {
+    margin: 5px 0;              /* Небольшие отступы между строками */
+}
+
+main img{
+    margin-left: 800px;
+}
